@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body {
+  background-image: url('fancy-cushion.webp');
+  background-repeat: repeat;
+  font-size: 12px;
+  background-attachment: fixed;
+}
+
+div {
+  background: #ebe1e9;
+  background: radial-gradient(
+    circle,
+    rgba(235, 225, 233, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 20% 5% 20%;
+  padding: 15px;
+}
+
+p {
+  margin: 15px;
+}
+
+h1,
+h2 {
+  margin-top: 0.75em;
+  margin-bottom: 0.33em;
+}
+
+.name {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30pt;
+  border-bottom: 4px solid black;
+}
+
+img {
+  border: 4px solid white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  float: right;
+  margin: 15px;
+}
+
+.interests {
+  text-indent: 20px;
+  margin: 1em 0;
+}
+
+.haiku {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  table-layout: fixed;
+  background-color: #ebe1e9;
+  width: 600px;
+  height: 700px;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+th {
+  width: 120px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd9d9;
+  border-spacing: 3px;
+  padding: 3px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #eee3e3;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.gym {
+  background-color: red;
+}
+
+.phys-2015 {
+  background-color: yellowgreen;
+}
+
+.phys-2010 {
+  background-color: purple;
+}
+
+.work {
+  background-color: lightblue;
+}
+
+.kids {
+  background-color: cadetblue;
+}
